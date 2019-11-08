@@ -1,0 +1,34 @@
+.person-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.person-image{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.person-details h4{
+    transform: translateX(-15px);
+    margin-bottom: 10px;
+}
+
+.person-details .card-body{
+    margin-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.person-details .list-group-item{
+    padding: .25rem;
+    border-left: none;
+    border-right: none;
+}
+
+.person-details .list-group-item .term {
+    margin-right: .5rem;
+}

@@ -1,0 +1,25 @@
+.header{
+    margin-top: 1rem;
+    padding-left: 10px;
+    margin-bottom: 2rem;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header h3 a{
+    color: white;
+}
+
+.header ul li{
+    list-style: none;
+    padding: .5rem .1rem;
+    margin-right: 25px;
+}
+
+.header ul{
+    margin: 0;
+}
+
+
