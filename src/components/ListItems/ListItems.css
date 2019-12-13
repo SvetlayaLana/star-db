@@ -1,3 +1,8 @@
 .list-group-left{
     margin-top: 1rem;
 }
+
+.list-group-left .list-group-item:hover{
+    cursor: pointer;
+    background-color: #404040;
+}

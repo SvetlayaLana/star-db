@@ -1,16 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ChangeListManager">
+    <list default="true" id="4fc1cf89-7d60-4d06-903e-7c3a68b80199" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorButton/ErrorButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorButton/ErrorButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorIndicator/ErrorIndicator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorIndicator/ErrorIndicator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorIndicator/death-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorIndicator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RandomPlanet/RandomPlanetView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/PeoplePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/PlanetsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/StarshipsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/pages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListItems/ListItems.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListItems/ListItems.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListItems/ListItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListItems/ListItems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PersonDetails/PersonDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonDetails/PersonDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PersonDetails/PersonDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonDetails/PersonDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RandomPlanet/RandomPlanet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RandomPlanet/RandomPlanet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/SwapiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/SwapiService.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TpSrUhavCbYgaW4ZZVZGB6JBYF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -23,6 +79,41 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fc1cf89-7d60-4d06-903e-7c3a68b80199" name="Default Changelist" comment="" />
+      <created>1574155742394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574155742394</updated>
+      <workItem from="1574155743801" duration="15000000" />
+      <workItem from="1574241599947" duration="6257000" />
+      <workItem from="1574329328418" duration="9994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="masterDetails">
     <states>

@@ -6,6 +6,10 @@
 
 }
 
+.person-details-null{
+    margin-top: 1rem;
+}
+
 .person-image{
     width: 30%;
     height: 30%;

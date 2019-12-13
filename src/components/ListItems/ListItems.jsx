@@ -1,18 +1,49 @@
 import React from 'react';
-import './ListItems.css';
 
-const ListItems = () => {
-    return(
-      <>
-          <ul className="list-group list-group-left">
-              <li className="list-group-item">Luck SkyWalker</li>
-              <li className="list-group-item">R2-D2</li>
-              <li className="list-group-item">Dart Waider</li>
-              <li className="list-group-item">Leia Gangbang</li>
-              <li className="list-group-item">Obevan Kenobi</li>
-          </ul>
-      </>
-    );
-};
+import './ListItems.css';
+import Swapi from "../../services/SwapiService";
+import Spinner from "../Spinner";
+
+class ListItems extends React.Component {
+
+    state = {
+        itemsList: null,
+    };
+
+    componentDidMount() {
+       this.props.getData()
+            .then((itemsList) => this.setState({
+                itemsList
+            }))
+    }
+
+    renderItems(items) {
+        return items.map(item => {
+
+            const label = this.props.renderItem();
+            return (
+                <li key={item.id} className="list-group-item" onClick={() => this.props.onItemSelected(item.id)}>
+                    {label}
+                    {item.name}
+                </li>
+            )
+        })
+    }
+
+    render(){
+        if (!this.state.itemsList)
+            return <Spinner/>;
+
+        const { itemsList } = this.state;
+
+        return (
+            <>
+                <ul className="list-group list-group-left">
+                    {this.renderItems(itemsList)}
+                </ul>
+            </>
+        );
+    }
+}
 
 export default ListItems;
