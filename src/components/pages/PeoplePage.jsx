@@ -30,9 +30,10 @@ class PeoplePage extends React.Component{
         return (
             <>
                 <div className='col-md-6'>
-                    <ListItems onItemSelected={this.onPersonSelected} getData={Swapi.getAllPeople} renderItem={() => {
-
-                    }}/>
+                    <ListItems
+                        onItemSelected={this.onPersonSelected}
+                        getData={Swapi.getAllPeople}
+                    />
                 </div>
                 <div className="col-md-6">
                     <PersonDetails personId={selectedPersonId}/>

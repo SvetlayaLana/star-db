@@ -1,6 +1,6 @@
 class SwapiService {
 
-    _apiBase = 'https://swapi.co/api';
+    _apiBase = 'https://swapi.dev/api';
 
     _extractId = (url) => {
         const regExpId = /\/([0-9]+)\/$/;

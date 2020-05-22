@@ -2,7 +2,6 @@ import React from 'react';
 import ListItems from "../ListItems";
 import PlanetDetails from '../PlanetDetails'
 import Swapi from "../../services/SwapiService";
-import Spinner from "../Spinner";
 import ErrorIndicator from "../ErrorIndicator";
 
 class PlanetsPage extends React.Component {
@@ -31,11 +30,14 @@ class PlanetsPage extends React.Component {
         return(
             <>
                 <div className='col-md-6'>
-                    <ListItems onItemSelected={this.onPlanetSelected} getData={Swapi.getAllPlanets}/>
+                    <ListItems
+                        onItemSelected={this.onPlanetSelected}
+                        getData={Swapi.getAllPlanets}
+                    />
                 </div>
-                {/*<div className="col-md-6">
+                <div className="col-md-6">
                     <PlanetDetails planetId={selectedPlanetId}/>
-                </div>*/}
+                </div>
             </>
         )
     }

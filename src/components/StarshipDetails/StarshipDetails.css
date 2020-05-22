@@ -1,0 +1,32 @@
+.starship-details{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  padding: 1rem;
+
+}
+
+.starship-details-null{
+  margin-top: 1rem;
+}
+
+.starship-details h4{
+  transform: translateX(-15px);
+  margin-bottom: 20px;
+}
+
+.starship-details .card-body{
+  margin-left: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.starship-details .list-group-item{
+  padding: .25rem;
+  border-left: none;
+  border-right: none;
+}
+
+.starship-details .list-group-item .term {
+  margin-right: .5rem;
+}
