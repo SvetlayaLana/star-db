@@ -11,15 +11,18 @@ const Pages = () => {
           <div className='row mb2'>
               <Switch>
                   <Route exact path='/'>
+                    <HomePage/>
+                  </Route>
+                  <Route exact path='/star-db'>
                       <HomePage/>
                   </Route>
-                  <Route exact path='/people'>
+                  <Route exact path='/star-db/people'>
                       <PeoplePage/>
                   </Route>
-                  <Route exact path='/planets'>
+                  <Route exact path='/star-db/planets'>
                       <PlanetsPage/>
                   </Route>
-                  <Route exact path='/starships'>
+                  <Route exact path='/star-db/starships'>
                       <StarshipsPage/>
                   </Route>
               </Switch>
